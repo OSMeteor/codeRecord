@@ -16,7 +16,7 @@
 
 
 
-_______
+________
  * git config --global user.email "meteorsoftawre@qq.com" //设置用户邮箱
 
  * git config --global user.name "meteor" //设置用户名
