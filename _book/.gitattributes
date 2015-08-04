@@ -1,5 +1,0 @@
-*.pbxproj -crlf -diff
-*.txt		text
-*.vcproj	eol=crlf
-*.sh		eol=lf
-*.jpg		-text
