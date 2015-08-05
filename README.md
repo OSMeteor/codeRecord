@@ -5,5 +5,7 @@
 ###* Hoemail: [ kllxyu@hotmail.com](http://kllxyu@hotmail.com)
 ###* QQGroup: [ 185748894（OSCode)](http://shang.qq.com/wpa/qunwpa?idkey=faca57c4353f9a342e96bdbd82157af24aa5f0b8948a6509a9e36a6da8204a73)
 ###this book codeRecord
-[gitbook](https://www.gitbook.com/@osmeteor/dashboard)
-[github](https://github.com/OSMeteor/codeRecord.git)
+
+[gitbook URL](http://osmeteor.gitbooks.io/coderecord/content)
+
+[github bookSource](https://github.com/OSMeteor/codeRecord.git)
