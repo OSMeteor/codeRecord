@@ -50,5 +50,6 @@ Mou
 Pickr.v2.0.1.MacOSX.Retail-CORE
 
 
+HBuilder
 #mac 精华软件
 Manico Alfred2  iTrem2 Shortcat Popclip
