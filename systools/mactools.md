@@ -48,3 +48,7 @@ Mou
 
 ### 颜色吸取
 Pickr.v2.0.1.MacOSX.Retail-CORE
+
+
+#mac 精华软件
+Manico Alfred2  iTrem2 Shortcat Popclip
