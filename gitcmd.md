@@ -6,6 +6,8 @@
 * git remote add origin https://github.com/OSMeteor/codeRecord.git
 
 * git push origin master 本地分支:远程分支
+* git push -all
+* git push --a
 
 
 * git status
