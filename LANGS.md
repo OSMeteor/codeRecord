@@ -1,6 +1,6 @@
-* [English](en)
+<!--* [English](en)
 * [中文](zh)
-<!--* [Deutsch](de)
+* [Deutsch](de)
 * [Español](es)
 * [Français](fr)
 * [Português](pt-br)
