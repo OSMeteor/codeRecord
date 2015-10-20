@@ -1,7 +1,8 @@
 {
+
     "title": "codeRecord",
     "description": "osmeteor codeRecord",
-    "plugins": [],
+    "plugins": ["disqus"],
     "pluginsConfig": {
         "fontSettings": {
             "theme": "Sepia",
