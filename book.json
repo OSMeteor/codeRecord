@@ -1,13 +1,38 @@
 {
-
-    "title": "codeRecord",
-    "description": "osmeteor codeRecord",
-    "plugins": ["disqus"],
+    "title": "OsMeteor codeRecord",
+    "description": "OsMeteor codeRecord ",
+    "plugins": [],
     "pluginsConfig": {
         "fontSettings": {
-            "theme": "Sepia",
-            "family": "Sans",
-            "size": 3
+            "theme": "sepia",
+            "family": "sans",
+            "size": 1
         }
+    },
+    "variables": {},
+    "links": {
+        "sidebar": {
+            "codeRecord": "https://osmeteor.gitbooks.io/coderecord/content/nodejs/index.html"
+        },
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null,
+            "weibo": null,
+            "all": null
+        }
+    },
+    "pdf": {
+        "pageNumbers": false,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        },
+        "headerTemplate": null,
+        "footerTemplate": null
     }
 }
