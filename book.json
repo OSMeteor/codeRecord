@@ -1,8 +1,12 @@
 {
-    "plugins": ["disqus"],
+    "title": "codeRecord",
+    "description": "osmeteor codeRecord",
+    "plugins": [],
     "pluginsConfig": {
-        "disqus": {
-            "shortName": "NAME-FROM-DISQUS"
+        "fontSettings": {
+            "theme": "Sepia",
+            "family": "Sans",
+            "size": 3
         }
     }
 }
