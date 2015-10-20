@@ -1,0 +1,22 @@
+{
+        "pluginsConfig": {
+            "fontSettings": {
+            "theme": "sepia",
+            "family": "serif",
+            "size": 1
+            }
+        },
+    "links": {
+        "sidebar": {
+        "Custom link name": "http://osmeteor.github.io"
+        },
+        // Sharing links
+        "sharing": {
+        "google": null,
+        "facebook": null,
+        "twitter": null,
+        "weibo": null,
+        "all": null
+        }
+    }
+}
