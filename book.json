@@ -2,8 +2,8 @@
 
     "title": "codeRecord",
     "description": "osmeteor codeRecord",
-    "description": null,
-        "pluginsConfig": {
+    "plugins": [],
+     "pluginsConfig": {
             "fontSettings": {
             "theme": "Sepia",
             "family": "Sans",
