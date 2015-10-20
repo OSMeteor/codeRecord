@@ -1,16 +1,19 @@
 {
+
+    "title": "codeRecord",
+    "description": "osmeteor codeRecord",
+    "description": null,
         "pluginsConfig": {
             "fontSettings": {
-            "theme": "sepia",
-            "family": "serif",
-            "size": 1
+            "theme": "Sepia",
+            "family": "Sans",
+            "size": 3
             }
         },
     "links": {
         "sidebar": {
         "Custom link name": "http://osmeteor.github.io"
         },
-        // Sharing links
         "sharing": {
         "google": null,
         "facebook": null,
