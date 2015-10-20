@@ -12,7 +12,7 @@
     "variables": {},
     "links": {
         "sidebar": {
-            "codeRecord": "https://osmeteor.gitbooks.io/coderecord/content/nodejs/index.html"
+            "OsMeteor": "http://osmeteor.github.io/"
         },
         "sharing": {
             "google": null,
