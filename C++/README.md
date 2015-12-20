@@ -5,4 +5,4 @@
 * [json](http://www.json.org/)
 * [rapidjson(推荐)](https://github.com/miloyip/rapidjson)
 * [jsoncpp](http://sourceforge.net/projects/jsoncpp/)
-
+* [freeimage](http://freeimage.sourceforge.net/)
