@@ -16,7 +16,9 @@
 * git reset ---- hard HEAD 回滚到add之前的状态
 * git diff比较的是跟踪列表中的文件和文件系统中文件的差别
 
-
+* git checkout xm2.x   切换分支
+* git branch -r 查看远程分支
+* git branch -a 查看本地和远程分支
 
 ________
  * git config --global user.email "meteorsoftawre@qq.com" //设置用户邮箱
