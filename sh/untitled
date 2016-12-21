@@ -1,0 +1,43 @@
+
+#user  nobody;
+worker_processes  1;
+
+#error_log  logs/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    #log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+    #                  '$status $body_bytes_sent "$http_referer" '
+    #                  '"$http_user_agent" "$http_x_forwarded_for"';
+
+    #access_log  logs/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    #keepalive_timeout  0;
+    keepalive_timeout  65;
+
+    #gzip  on;
+    server {  
+    listen       4000;        #端口  
+    server_name  localhost 127.0.0.1 192.168.8.1 192.168.8.2 192.168.8.3 172.20.4.102;   #服务名  
+    root    /Users/jhloke/pictureAirServer/website;  #显示的根索引目录  
+    autoindex on;             #开启索引功能  
+    autoindex_exact_size off; # 关闭计算文件确切大小（单位bytes），只显示大概大小（单位kb、mb、gb）  
+    autoindex_localtime on;   # 显示本机时间而非 GMT 时间  
+    index index.html index.htm ; 
+    }  
+}
