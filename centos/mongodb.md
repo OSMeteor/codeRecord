@@ -516,3 +516,17 @@ db.copyDatabase("xxx","xxx","127.0.0.1:27017");
 Redis
 redis-cli -h 127.0.0.1 -p 6379 shutdown  关闭
 redis-cli keys "*" | xargs redis-cli del 删除所有key
+
+
+@echo off&setlocal enabledelayedexpansion
+set mongdoBinExeDir=C:\Program Files\MongoDB\Server\3.2\bin
+set mongdoBinDBDir=%~dp0db
+//set timestring=%date:~0,4%%date:~5,2%%date:~8,2%%time:~0,2%%time:~3,2%%time:~6,2%
+set hour=%time:~0,2%
+if "%hour:~0,1%" == " " set hour=0%hour:~1,1%
+set min=%time:~3,2%
+if "%min:~0,1%" == " " set min=0%min:~1,1%
+set secs=%time:~6,2%
+if "%secs:~0,1%" == " " set secs=0%secs:~1,1%
+set timestring=%date:~0,4%%date:~5,2%%date:~8,2%%hour%
+"%mongdoBinExeDir%\mongodump.exe"  -h pictureWorks/127.0.0.1:828,127.0.0.1:827 -u=PW_backup -p=PW_backup -d pictureAir  -o "%mongdoBinDBDir%\%timestring%"

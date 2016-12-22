@@ -10,3 +10,4 @@ https://github.com/haraka/Haraka
 https://www.npmjs.com/package/Haraka
 
 Haraka - a Node.js Mail Server
+pm2-auto-pull     pm2-logrotate      pm2-mongodb       pm2-redis         pm2-server-monit    pm2-varnish         pm2-webshell

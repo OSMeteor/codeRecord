@@ -70,3 +70,50 @@ Angular
 10、模板；
 
 11、动态加载；
+
+
+
+
+前端框架
+YeomanDom
+.tmp
+app
+	bower_components
+		jquery less angular…
+	script
+		angular---controllers| app.js
+	styles
+	views
+		component(插件)
+assets
+   font(ttf)
+automation
+conf
+dist
+docs
+makefile
+middlewares
+test
+.bowerrc
+bower.json
+
+
+js框架文件：jQuery、Backbone
+
+模块化管理  seajs   requirejs   bower（解决js的依赖管理）  grunt(规范js)
+grunt-contrib-uglify  压缩代码
+
+PhantomJS单元测试  mocha 测试框架
+mocha+jasmine来编写js单元测试。
+使用 OptPNG 和 JPEGTran 对图像做优化。
+框架 - do.js
+核心功能库 - jQuery, douban.js
+功能库 - map.js, swfobject.js ......
+DoubanUI组件库 - dialog.js ...
+为了降低前端开发复杂度，除了 Backbone，还有大量框架涌现，比如 EmberJS、KnockoutJS、AngularJS 等等。这些框架总的原则是先按类型分层，比如 Templates、Controllers、Models，然后再在层内做切分，如下图：
+KMD、AMD、CommonJS
+在浏览器端载入模版档案，方法可能有
+使用 <script type="js/tpl"> ... </script> 印在页面上
+使用模块载入工具，载入模版档案 （KISSY, requireJS, etc.）
+其他
+Midway默认支持xtemplate模板，但将来也有可能支持其他模板：如jade、mustache、ejs等

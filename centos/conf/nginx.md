@@ -1,0 +1,26 @@
+./configure --prefix=/opt/nginx \
+--with-openssl=../nginxlib/openssl-1.0.2j \
+--with-pcre \
+--with-pcre-jit \
+--with-pcre=../nginxlib/pcre-8.39 \
+--with-zlib=../nginxlib/zlib-1.2.8 \
+--add-module=../nginxlib/nginx-http-concat \
+--with-poll_module \
+--with-threads \
+--with-http_iconv_module \
+--with-http_ssl_module \
+--without-mail_pop3_module --without-mail_smtp_module --without-mail_imap_module \
+--with-http_realip_module \
+--with-http_flv_module --with-http_mp4_module \
+--with-http_addition_module --with-http_sub_module \
+--with-http_secure_link_module \
+--with-http_auth_request_module --with-file-aio \
+--with-http_degradation_module \
+--with-http_dav_module \
+--with-ipv6 \
+--with-http_dav_module \
+--with-http_perl_module \
+--with-select_module \
+--with-http_stub_status_module \
+--without-http_redis2_module \
+--with-http_gzip_static_module --with-cc-opt=-O2 -j4
