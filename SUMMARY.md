@@ -6,6 +6,7 @@
          * [h5 tools](webface/h5/tools.md) 
  * [nodejs](nodejs/README.md) 
     * [nodejs modules](nodejs/modules.md) 
+    * [es6](nodejs/es6.md) 
  * [systools](systools/wintools.md) 
     * [ProxySoftware](systools/ProxySoftware.md) 
     * [wintools](systools/wintools.md)
