@@ -11,3 +11,5 @@ docker run --name gitlab -d \
 docker run --name dockerUbuntu14.4.3 -d  --publish 10022:22 --publish 10080:80  --volume /srv/docker/gitlab/gitlab:/home/git/data ubuntu
      
  sudo docker attach evil_carson
+docker build -t centos7test . 
+docker run --name test -i -t centos7-ansible-base /bin/bash 
